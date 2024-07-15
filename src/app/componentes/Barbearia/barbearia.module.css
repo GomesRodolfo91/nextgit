@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+ 
+ .topo { 
+ display: flex; 
+ height: 150px; 
+ justify-content: space-around; 
+ align-items: center; 
+ } 
+ 
+ .button_img { 
+ width: 60px; 
+ height: 60px; 
+ } 
+
+ .editar_botao{
+    background-color: black;
+
+ }
+ 
+ .botao_preto { 
+ border: none; 
+ transition: 0.3s; 
+ background-color: #000000; 
+ } 
+
+ .botao_branco { 
+    border: none; 
+    transition: 0.3s; 
+    background-color: white; 
+    } 
+ 
+ .botao_preto:hover,.botao_branco:hover { 
+ transform: scale(1.1); 
+ } 
+ 
+ .logo_img { 
+ width: 150px; 
+ height: 150px; 
+ } 
+ 
+ .textos { 
+ max-width: 800px; 
+ height: 300px; 
+ text-align: center; 
+ display: flex; 
+ flex-direction: column; 
+ justify-content: space-between; 
+ } 
+ 
+ /* PRETO E BRANCO */ 
+ .preto { 
+ color: white; 
+ background-color: black; 
+ } 
+ 
+ .branco { 
+ color: black; 
+ background-color: white; 
+ } 
